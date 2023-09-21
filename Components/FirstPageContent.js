@@ -5,7 +5,7 @@ const FirstPageContent = () => {
     <>
       <div id="fpid">
         <div className="mt-32 items-center justify-center flex flex-col cursor-default sm:text-center  md:text-center  lg:text-center ">
-          <h1 className="font-bold text-6xl sm:items-center ">
+          <h1 id="fpidh1" className="font-bold text-6xl sm:items-center ">
             A Digital Agency Transforming Your
           </h1>
           <h1 className="font-bold text-6xl pt-4 decoraiton-[#000000] ">

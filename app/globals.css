@@ -5,6 +5,20 @@
 
 /* absolute top-0 left-0 border border-red-600 bg-red-400 opacity-0 hover:opacity-40 */
 
+#fpid{
+  background-image: url(../public/background.png) ;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+#headid{
+  background-image: url(../public/background.png) ;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
 #hidd{
   overflow: hidden;
   width: 100%;
