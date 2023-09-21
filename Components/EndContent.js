@@ -3,8 +3,8 @@ import React from "react";
 const EndContent = () => {
   return (
     <>
-      <div>
-        <div className="flex flex-col items-center gap-4">
+      <div id="scroll">
+        <div id="endid" className="flex flex-col items-center gap-4">
           <h1 className="mt-8 text-4xl">
             Let's <span className="text-[#8453F9]">Talk Together</span>
           </h1>

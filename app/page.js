@@ -6,7 +6,7 @@ import ThirdPageContent from "@/Components/ThirdPageContent";
 import FourthPageContent from "@/Components/FourthPageContent";
 import EndContent from "@/Components/EndContent";
 import Footer from "@/Components/Footer";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 const page = () => {
   // const headid = "headid";
   // const SPC = "SPCid";

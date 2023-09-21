@@ -1,12 +1,106 @@
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* absolute top-0 left-0 border border-red-600 bg-red-400 opacity-0 hover:opacity-40 */
+
+#hidd{
+  overflow: hidden;
+  width: 100%;
+}
+#article {
+  display: flex;
+  width: 200%;
+  animation: bannermove 20s linear infinite;
+}
+#gallery{
+  width: 100%;
+}
+
+.overlay{
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+
+#overlay1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  background-color: #e66262;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+#overlay1:hover {
+  opacity: 0.5;
+  height: 100%;
+}
+#overlay2{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  background-color: #e66262;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+#overlay2:hover {
+  opacity: 0.5;
+  height: 100%;
+}
+#overlay3{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  background-color: #e66262;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+#overlay3:hover {
+  opacity: 0.5;
+  height: 100%;
+}
+#overlay4{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  background-color: #e66262;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+#overlay4:hover {
+  opacity: 0.5;
+  height: 100%;
+}
+
+/* #growth1id {
+  border: 1px solid red;
+  padding: 2px;
+  display: none;
+} */
+/* #g01{
+  overflow: hidden;
+
+}
+#g01::after {
+content: "";
+z-index: 100;
+top: 0px;
+left: 0px;
+
+position: absolute;
 
 
-
+} */
 
 /* body{
   background-image: url(/public/background.png);

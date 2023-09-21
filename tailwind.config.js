@@ -7,6 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      images: {
+        formats: ["public/png", "public/jpeg"],
+      },
+      animation: {
+        scroll: "scroll 20s linear infinite",
+      },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
       // screens: {
       //   sm: "260px",
       //   md: "480px",
