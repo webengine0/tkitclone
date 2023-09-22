@@ -22,9 +22,9 @@ const FourthPageContent = () => {
                 id="overlay1"
                 className="absolute top-0 left-0 border border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
               ></div> */}
-              <div id="overlay1" className="overlayleft">
+              <div id="overlay1" className=" z-0 overlayleft">
                 <img
-                  className="max-w-sm max-h-10 top-[50%] left-[50%] absolute"
+                  className="max-w-lg max-h-40 top-[50%] left-[50%] absolute z-10"
                   src="/icon.png"
                   alt=""
                 />
@@ -38,10 +38,10 @@ const FourthPageContent = () => {
               <img className="" src="/laptop.png" alt="" />
               <div
                 id="overlay2"
-                className="absolute bottom-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
+                className="z-0 absolute bottom-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
               >
                 <img
-                  className="max-w-sm max-h-10 top-[50%] left-[50%] absolute"
+                  className="max-w-lg max-h-40 top-[50%] left-[50%] absolute z-10"
                   src="/icon.png"
                   alt=""
                 />{" "}
@@ -68,11 +68,11 @@ const FourthPageContent = () => {
               <img className="" src="/growth.png" alt="" />
               <div
                 id="overlay3"
-                className="absolute bottom-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
+                className="z-0 absolute bottom-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
               >
                 {" "}
                 <img
-                  className="max-w-sm max-h-10 top-[50%] left-[50%] absolute"
+                  className="max-w-lg max-h-40 top-[50%] left-[50%] absolute z-10"
                   src="/icon.png"
                   alt=""
                 />
@@ -86,11 +86,11 @@ const FourthPageContent = () => {
               <img className="" src="/mobile.png" alt="" />
               <div
                 id="overlay4"
-                className="absolute bottom-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
+                className="z-0 absolute bottom-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
               >
                 {" "}
                 <img
-                  className="max-w-sm max-h-10 top-[50%] left-[50%] absolute"
+                  className="max-w-lg max-h-40 top-[50%] left-[50%] absolute z-10"
                   src="/icon.png"
                   alt=""
                 />

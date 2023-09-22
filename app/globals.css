@@ -4,7 +4,14 @@
 @tailwind utilities;
 
 /* absolute top-0 left-0 border border-red-600 bg-red-400 opacity-0 hover:opacity-40 */
-
+#scroll{
+ 
+  background-image: url(../public/background.png) ;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
 #fpid{
   background-image: url(../public/background.png) ;
   width: 100%;

@@ -3,7 +3,7 @@ import React from "react";
 const EndContent = () => {
   return (
     <>
-      <div id="scroll">
+      <div id="scroll" className=" mt-20 mb-20">
         <div id="endid" className="flex flex-col items-center gap-4">
           <h1 className="mt-8 text-4xl">
             Let's <span className="text-[#8453F9]">Talk Together</span>
@@ -12,7 +12,7 @@ const EndContent = () => {
             <p>Let Us know if you're looking for a digital designer.</p>
             <p>Let’s talk about the next big thing!</p>
           </div>
-          <div className="flex justify-center border border-[#8453F9] p-1 gap-40 mt-14 2xl:gap-40 xl:gap-30 md:gap-20 sm:gap-5">
+          <div className="mb-10 flex justify-center border border-[#8453F9] p-1 gap-40 mt-14 2xl:gap-40 xl:gap-30 md:gap-20 sm:gap-5">
             <input
               type="Email"
               placeholder="email"

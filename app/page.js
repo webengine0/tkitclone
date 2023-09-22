@@ -35,7 +35,7 @@ const page = () => {
       <ThirdPageContent />
       <FourthPageContent />
       <EndContent />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
