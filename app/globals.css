@@ -43,7 +43,7 @@
 
 #overlay1{
   position: absolute;
-  top: 0px;
+  bottom: 0px;
   left: 0px;
   width: 100%;
   height: 50%;
@@ -51,11 +51,53 @@
   transition: all 0.3s ease;
   opacity: 0;
 }
-#overlay1:hover {
+#containeroverlay1:hover #overlay1 {
   opacity: 0.5;
   height: 100%;
 }
 #overlay2{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  background-color: #e66262;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+#containeroverlay2:hover #overlay2 {
+  opacity: 0.5;
+  height: 100%;
+}
+#overlay3{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  background-color: #e66262;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+#containeroverlay3:hover #overlay3 {
+  opacity: 0.5;
+  height: 100%;
+}
+#overlay4{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  background-color: #e66262;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+#containeroverlay4:hover #overlay4 {
+  opacity: 0.5;
+  height: 100%;
+}
+/* #overlay2{
   position: absolute;
   top: 0px;
   left: 0px;
@@ -96,7 +138,7 @@
 #overlay4:hover {
   opacity: 0.5;
   height: 100%;
-}
+} */
 
 /* #growth1id {
   border: 1px solid red;

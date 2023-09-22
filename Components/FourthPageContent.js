@@ -30,12 +30,15 @@ const FourthPageContent = () => {
                 />
               </div>
             </div>
-            <div className="max-w-[607px] max-h-[454px] relative">
+            <div
+              id="containeroverlay2"
+              className="max-w-[607px] max-h-[454px] relative"
+            >
               {" "}
               <img className="" src="/laptop.png" alt="" />
               <div
                 id="overlay2"
-                className="absolute top-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
+                className="absolute bottom-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
               >
                 <img
                   className="max-w-sm max-h-10 top-[50%] left-[50%] absolute"
@@ -57,12 +60,15 @@ const FourthPageContent = () => {
           </div>
 
           <div className="flex justify-center gap-8 mx-50 mt-8 xl:mx-40 lg:mx-40 md:mx-20 sm:mx-20 xl:flex-col md:flex-col lg:flex-col sm:flex-col cursor-pointer">
-            <div className="max-w-[607px] max-h-[454px] relative">
+            <div
+              id="containeroverlay3"
+              className="max-w-[607px] max-h-[454px] relative"
+            >
               {" "}
               <img className="" src="/growth.png" alt="" />
               <div
                 id="overlay3"
-                className="absolute top-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
+                className="absolute bottom-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
               >
                 {" "}
                 <img
@@ -72,12 +78,15 @@ const FourthPageContent = () => {
                 />
               </div>
             </div>
-            <div className="max-w-[607px] max-h-[454px] relative">
+            <div
+              id="containeroverlay4"
+              className="max-w-[607px] max-h-[454px] relative"
+            >
               {" "}
               <img className="" src="/mobile.png" alt="" />
               <div
                 id="overlay4"
-                className="absolute top-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
+                className="absolute bottom-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
               >
                 {" "}
                 <img

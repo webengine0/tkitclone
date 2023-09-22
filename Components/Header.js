@@ -1,8 +1,9 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 
 const Header = () => {
+  // const [color, setColor] = useState("fpid");
   const scrollfFunction = () => {
     const elem = document.getElementById("fpid");
     elem.scrollIntoView({ behavior: "smooth" });
@@ -41,7 +42,7 @@ const Header = () => {
   return (
     <>
       <div className="sticky top-0 bg-white z-20" id="headid">
-        <div className="flex justify-between mt-[36px] items-center 2xl:mx-[100px] xl:mx-[60px] lg:mx-[30px] md:mx-[50px] sm:mx-[10px]  ">
+        <div className="flex justify-between mt-[10px] mb-[10px]  items-center 2xl:mx-[100px] xl:mx-[60px] lg:mx-[30px] md:mx-[50px] sm:mx-[10px]  ">
           <div className="flex items-center gap-2" onClick={scrollfFunction}>
             <img
               className="max-w-[35px] max-h-[27.58px] cursor-pointer  "
@@ -52,30 +53,30 @@ const Header = () => {
           </div>
           <div className="flex gap-[5vw] md:hidden sm:hidden">
             <a
-              href="#"
+              // href="#"
               onClick={scrollfFunction}
-              className=" hover:text-[#8453F9] relative duration-800 before:absolute before:-bottom-2 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:duration-500 before:bg-gradient-to-tr before:from-blue-600 before:to-blue-400 before:to-blue-500 before:ease-in-out hover:before:w-full hover:before:opacity-100  hover:before:ease-in-out"
+              className=" cursor-pointer hover:text-[#8453F9] relative duration-800 before:absolute before:-bottom-2 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:duration-500 before:bg-gradient-to-tr before:from-blue-600 before:to-blue-400 before:to-blue-500 before:ease-in-out hover:before:w-full hover:before:opacity-100  hover:before:ease-in-out"
             >
               Home
             </a>
             <a
-              href="#"
+              // href="#"
               onClick={scrollendFunction}
-              className=" hover:text-[#8453F9] relative duration-800 before:absolute before:-bottom-2 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:duration-500 before:bg-gradient-to-tr before:from-blue-600 before:to-blue-400 before:to-blue-500 before:ease-in-out hover:before:w-full hover:before:opacity-100  hover:before:ease-in-out"
+              className=" cursor-pointer hover:text-[#8453F9] relative duration-800 before:absolute before:-bottom-2 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:duration-500 before:bg-gradient-to-tr before:from-blue-600 before:to-blue-400 before:to-blue-500 before:ease-in-out hover:before:w-full hover:before:opacity-100  hover:before:ease-in-out"
             >
               About Us
             </a>
             <a
-              href="#"
+              // href="#"
               onClick={scrollsFunction}
-              className=" hover:text-[#8453F9] relative duration-800 before:absolute before:-bottom-2 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:duration-500 before:bg-gradient-to-tr before:from-blue-600 before:to-blue-400 before:to-blue-500 before:ease-in-out hover:before:w-full hover:before:opacity-100  hover:before:ease-in-out"
+              className=" cursor-pointer hover:text-[#8453F9] relative duration-800 before:absolute before:-bottom-2 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:duration-500 before:bg-gradient-to-tr before:from-blue-600 before:to-blue-400 before:to-blue-500 before:ease-in-out hover:before:w-full hover:before:opacity-100  hover:before:ease-in-out"
             >
               Services
             </a>
             <a
-              href="#"
+              // href="#"
               onClick={scrolltFunction}
-              className=" hover:text-[#8453F9] relative duration-800 before:absolute before:-bottom-2 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:duration-500 before:bg-gradient-to-tr before:from-purple-500 before:to-purple-400 before:to-purple-500 before:ease-in-out hover:before:w-full hover:before:opacity-100  hover:before:ease-in-out"
+              className=" cursor-pointer hover:text-[#8453F9] relative duration-800 before:absolute before:-bottom-2 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:duration-500 before:bg-gradient-to-tr before:from-purple-500 before:to-purple-400 before:to-purple-500 before:ease-in-out hover:before:w-full hover:before:opacity-100  hover:before:ease-in-out"
             >
               Products
             </a>
@@ -83,7 +84,7 @@ const Header = () => {
           <div>
             <button
               onClick={scrollendFunction}
-              className="bg-[#8453F9] border-[#8453F9] border text-[#fff] px-6 h-12 rounded hover:bg-[#fff] hover:text-[#8453F9] hover:border-[#8453F9] "
+              className=" cursor-pointer bg-[#8453F9] border-[#8453F9] border text-[#fff] px-6 h-12 rounded hover:bg-[#fff] hover:text-[#8453F9] hover:border-[#8453F9] "
             >
               Get a Quote
             </button>
