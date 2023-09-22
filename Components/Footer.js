@@ -35,7 +35,7 @@ const Footer = () => {
             <p>Services</p>
             <p>Products</p>
           </div>
-          <div className="right pt-[80px] flex flex-col gap-4 ">
+          <div className="right pt-[60px] flex flex-col gap-4 ">
             <div className="flex">
               <img src="/email.png" alt="" />
               <p>mail.tkitsolutions@gmail.com</p>

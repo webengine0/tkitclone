@@ -15,8 +15,8 @@ const EndContent = () => {
           <div className="mb-10 flex justify-center border border-[#8453F9] p-1 gap-40 mt-14 2xl:gap-40 xl:gap-30 md:gap-20 sm:gap-5">
             <input
               type="Email"
-              placeholder="email"
-              className="border-none outline-0 mr-2"
+              placeholder="Email"
+              className="border-none outline-0 mr-2 bg-transparent ml-3 "
             />
             <button className="text-[#fff] bg-[#8453F9] rounded-sm p-3 ml-10 whitespace-nowrap">
               Contact Us
