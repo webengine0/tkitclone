@@ -27,6 +27,7 @@ const EndContent = () => {
           console.log("message not sent");
         }
       );
+    e.target.reset();
   };
   return (
     <>
