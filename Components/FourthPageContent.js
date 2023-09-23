@@ -11,7 +11,7 @@ const FourthPageContent = () => {
         </div>
 
         <div className="z-1">
-          <div className=" flex justify-center gap-8 mx-50 mt-8 xl:mx-40 lg:mx-40 md:mx-20 sm:mx-20 xl:flex-col md:flex-col lg:flex-col sm:flex-col cursor-pointer ">
+          <div className=" flex justify-center gap-8 mx-50 mt-8  xl:mx-52 lg:mx-40 md:mx-20 sm:mx-20 xl:flex-col md:flex-col lg:flex-col sm:flex-col cursor-pointer ">
             <div
               id="containeroverlay1"
               className="max-w-[607px] max-h-[454px] relative"

@@ -3,6 +3,10 @@
 import React from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+// toast.configure();
+// import "react-toastify/dist/ReactToastify.css";
 
 const EndContent = () => {
   const form = useRef();
@@ -21,10 +25,13 @@ const EndContent = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          toast.success("Message Sent!", {
+            position: toast.POSITION.TOP_CENTER,
+          });
         },
         (error) => {
           console.log(error.text);
-          console.log("message not sent");
+          console.log("Message Not Sent!");
         }
       );
     e.target.reset();
@@ -59,6 +66,22 @@ const EndContent = () => {
           </form>
         </div>
       </div>
+      <ToastContainer>
+        position = "top-center" hideProgressBar={true} theme="light" autoclose=
+        {1000}
+      </ToastContainer>
+      {/* <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      /> */}
     </>
   );
 };
