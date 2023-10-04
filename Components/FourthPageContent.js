@@ -11,10 +11,10 @@ const FourthPageContent = () => {
         </div>
 
         <div className="z-1">
-          <div className=" flex justify-center gap-8 mx-50 mt-8  xl:mx-52 lg:mx-40 md:mx-20 sm:mx-20 xl:flex-col md:flex-col lg:flex-col sm:flex-col cursor-pointer ">
+          <div className="  flex justify-center gap-8 mx-50 mt-8  xl:mx-52 lg:mx-40 md:mx-20 sm:mx-20 xl:flex-col md:flex-col lg:flex-col sm:flex-col cursor-pointer ">
             <div
               id="containeroverlay1"
-              className="max-w-[607px] max-h-[454px] relative"
+              className="max-w-[607px] max-h-[454px] relative "
             >
               {" "}
               <img className="" src="/table.png" alt="" />
@@ -22,13 +22,11 @@ const FourthPageContent = () => {
                 id="overlay1"
                 className="absolute top-0 left-0 border border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
               ></div> */}
-              <div id="overlay1" className=" z-0 overlayleft">
-                <img
-                  className="max-w-lg max-h-40 top-[35%] left-[40%] absolute z-10"
-                  src="/icon.png"
-                  alt=""
-                />
+              <div id="overlay1" className=" z-0 overlayleft"></div>
+              <div className="absolute top-[35%] left-[40%] " id="imgoverlay">
+                <img src="/icon.png" alt="" />
               </div>
+              {/* </div> */}
             </div>
             <div
               id="containeroverlay2"
@@ -38,14 +36,14 @@ const FourthPageContent = () => {
               <img className="" src="/laptop.png" alt="" />
               <div
                 id="overlay2"
-                className="z-0 absolute bottom-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
-              >
-                <img
-                  className="max-w-lg max-h-40 top-[35%] left-[40%] absolute z-10"
-                  src="/icon.png"
-                  alt=""
-                />{" "}
-              </div>
+                className="z-0 absolute bottom-0 left-0  bg-red-400 opacity-0 hover:opacity-40 "
+              ></div>
+              <img
+                id="imgoverlay1"
+                className="max-w-lg max-h-40 top-[35%] left-[40%] absolute z-10"
+                src="/icon.png"
+                alt=""
+              />{" "}
             </div>
 
             {/* <div className="relative">
@@ -68,15 +66,16 @@ const FourthPageContent = () => {
               <img className="" src="/growth.png" alt="" />
               <div
                 id="overlay3"
-                className="z-0 absolute bottom-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
+                className="z-0 absolute bottom-0 left-0  bg-red-400 opacity-0 hover:opacity-40 "
               >
                 {" "}
-                <img
-                  className="max-w-lg max-h-40 top-[35%] left-[40%] absolute z-10"
-                  src="/icon.png"
-                  alt=""
-                />
               </div>
+              <img
+                id="imgoverlay2"
+                className="max-w-lg max-h-40 top-[35%] left-[40%] absolute z-10"
+                src="/icon.png"
+                alt=""
+              />
             </div>
             <div
               id="containeroverlay4"
@@ -86,15 +85,16 @@ const FourthPageContent = () => {
               <img className="" src="/mobile.png" alt="" />
               <div
                 id="overlay4"
-                className="z-0 absolute bottom-0 left-0 border  border-red-600 bg-red-400 opacity-0 hover:opacity-40 "
+                className="z-0 absolute bottom-0 left-0  bg-red-400 opacity-0 hover:opacity-40 "
               >
                 {" "}
-                <img
-                  className="max-w-lg max-h-40 top-[35%] left-[40%] absolute z-10"
-                  src="/icon.png"
-                  alt=""
-                />
               </div>
+              <img
+                id="imgoverlay3"
+                className="max-w-lg max-h-40 top-[35%] left-[40%] absolute z-10"
+                src="/icon.png"
+                alt=""
+              />
             </div>
             {/* <div className="relative">
               {" "}

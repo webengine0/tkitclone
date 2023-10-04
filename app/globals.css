@@ -4,8 +4,65 @@
 @tailwind utilities;
 
 /* absolute top-0 left-0 border border-red-600 bg-red-400 opacity-0 hover:opacity-40 */
-#scroll{
- 
+
+#growth1id{
+
+  height: 0;
+  transition: all 1s ease-in;
+  transition-delay: 1s;
+  opacity: 0;
+}
+
+#g01:hover #growth1id {
+  opacity: 1;
+  height: 100%;
+  
+}
+#growth2id{
+
+  height: 0;
+  transition: all 1s ease-in;
+  transition-delay: 1s;
+  
+  opacity: 0;
+}
+
+#g02:hover #growth2id {
+  opacity: 1;
+  height: 100%;
+
+}
+#growth3id{
+
+  height: 0;
+  transition: all 1s ease-in;
+  transition-delay: 1s;
+  
+  opacity: 0;
+}
+
+#g03:hover #growth3id {
+  opacity: 1;
+  height: 100%;
+
+}
+#growth4id{
+
+  height: 0;
+  transition: all 1s ease-in;
+  transition-delay: 1s;
+  
+  opacity: 0;
+}
+
+#g04:hover #growth4id {
+  opacity: 1;
+  height: 100%;
+
+}
+
+
+#scroll{ 
   background-image: url(../public/background.png) ;
   width: 100%;
   height: 100%;
@@ -41,69 +98,128 @@
   width: 100%;
 }
 
-.overlay{
+/* .overlay{
   height: 100%;
   width: 0;
   top: 0;
   left: 0;
-}
+} */
 
 #overlay1{
   position: absolute;
   bottom: 0px;
   left: 0px;
   width: 100%;
-  height: 50%;
-  background-color: #e66262;
-  transition: all 0.3s ease;
+  height: 0%;
+  background-color: #8453F9;
+  transition: all 0.5s ease;
   opacity: 0;
+  
 }
 #containeroverlay1:hover #overlay1 {
   opacity: 0.5;
   height: 100%;
 }
+#imgoverlay{
+  /* position: absolute; */
+  top: 0%;
+  left: 0%;
+  opacity: 0;
+}
+#containeroverlay1:hover #imgoverlay {
+  opacity: 1;
+  top: 35%;
+  left: 40%;
+ 
+}
+
+
 #overlay2{
   position: absolute;
   bottom: 0px;
   left: 0px;
   width: 100%;
-  height: 50%;
-  background-color: #e66262;
-  transition: all 0.3s ease;
+  height: 0%;
+  background-color: #8453F9;
+  transition: all 0.5s ease;
   opacity: 0;
 }
 #containeroverlay2:hover #overlay2 {
   opacity: 0.5;
   height: 100%;
 }
+
+#imgoverlay1{
+  /* position: absolute; */
+  top: 0%;
+  left: 0%;
+  opacity: 0;
+}
+#containeroverlay2:hover #imgoverlay1 {
+  opacity: 1;
+   top: 35%;
+  left: 40%;
+ 
+}
+
+
 #overlay3{
   position: absolute;
   bottom: 0px;
   left: 0px;
   width: 100%;
-  height: 50%;
-  background-color: #e66262;
-  transition: all 0.3s ease;
+  height: 0%;
+  background-color: #8453F9;
+  transition: all 0.5s ease;
   opacity: 0;
 }
 #containeroverlay3:hover #overlay3 {
   opacity: 0.5;
   height: 100%;
 }
+
+#imgoverlay2{
+  /* position: absolute; */
+  top: 0%;
+  left: 0%;
+  opacity: 0;
+}
+#containeroverlay3:hover #imgoverlay2 {
+  opacity: 1;
+   top: 35%;
+  left: 40%;
+ 
+}
+
+
 #overlay4{
   position: absolute;
   bottom: 0px;
   left: 0px;
   width: 100%;
-  height: 50%;
-  background-color: #e66262;
-  transition: all 0.3s ease;
+  height: 0%;
+  background-color: #8453F9;
+  transition: all 0.5s ease;
   opacity: 0;
 }
 #containeroverlay4:hover #overlay4 {
   opacity: 0.5;
   height: 100%;
 }
+
+#imgoverlay3{
+  /* position: absolute; */
+  top: 0%;
+  left: 0%;
+  opacity: 0;
+}
+#containeroverlay4:hover #imgoverlay3 {
+  opacity: 1;
+   top: 35%;
+  left: 40%;
+ 
+}
+
 /* #overlay2{
   position: absolute;
   top: 0px;

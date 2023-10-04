@@ -42,14 +42,16 @@ const Header = () => {
   return (
     <>
       <div className="sticky top-0 bg-white z-20" id="headid">
-        <div className="flex justify-between mt-[10px] mb-[10px]  items-center 2xl:mx-[100px] xl:mx-[60px] lg:mx-[30px] md:mx-[50px] sm:mx-[10px]  ">
+        <div className="flex justify-between mt-[40px] mb-[10px]  items-center 2xl:mx-[160px] xl:mx-[60px] lg:mx-[30px] md:mx-[50px] sm:mx-[10px]  ">
           <div className="flex items-center gap-2" onClick={scrollfFunction}>
             <img
-              className="max-w-[35px] max-h-[27.58px] cursor-pointer  "
+              className="max-w-[85px] max-h-[60px] w-[45px] cursor-pointer  "
               src="/logo.png"
               alt="logo"
             />
-            <div className="text-1logo cursor-pointer  ">TKIT SOL</div>
+            <div className="text-1logo cursor-pointer font-bold  ">
+              TKIT SOL
+            </div>
           </div>
           <div className="flex gap-[5vw] md:hidden sm:hidden">
             <a

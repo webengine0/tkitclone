@@ -4,7 +4,7 @@ const SecondPageContent = () => {
   return (
     <>
       <div id="spid">
-        <div className="flex justify-center gap-36 items-center mx-60 mt-8 sm:gap-4 md:gap-4 md:flex-col sm:flex-col sm:mx-10 md:mx-10 lg:mx-20 2xl:mx-80 xl:mx-70">
+        <div className="flex justify-center gap-36 items-center  mt-8 sm:gap-4 md:gap-4 md:flex-col sm:flex-col sm:mx-10 md:mx-10 lg:mx-20 2xl:mx-80 xl:mx-70">
           <div className="flex flex-col">
             <h1 className="font-bold text-5xl whitespace-nowrap">
               About <span className="text-maincolor">Us</span>

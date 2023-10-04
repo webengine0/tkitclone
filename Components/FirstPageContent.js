@@ -28,6 +28,7 @@ const FirstPageContent = () => {
             Our Products
           </button>
         </div>
+
         <div id="hidd">
           <div id="article">
             <div
@@ -43,6 +44,12 @@ const FirstPageContent = () => {
               <img className="w-1/4 h-auto" src="/table.png" alt="Image 3" />
               <img className="w-1/4 h-auto" src="/growth.png" alt="Image 4" />
             </div>
+
+            {/* <img
+              className="border border-white-800 w-1/2 h-10 absolute rounded-full "
+              src="/ellipsedown.png"
+              alt=""
+            /> */}
           </div>
         </div>
       </div>
