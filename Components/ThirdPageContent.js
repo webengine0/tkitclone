@@ -38,7 +38,7 @@ const ThirdPageContent = () => {
               </h3>
             </div>
             <div
-              className="items-end justify-end flex 2xl:mr-52 "
+              // className=" justify-end max-h[100px] flex  overflow-hidden border border-red-900 "
               id="growth1id"
             >
               <img src="/growth.png" alt="" />
@@ -68,7 +68,7 @@ const ThirdPageContent = () => {
               </h3>
             </div>
             <div
-              className="items-end justify-end flex 2xl:mr-52 "
+              // className="items-end justify-end flex 2xl:mr-52 "
               id="growth2id"
             >
               <img src="/growth.png" alt="" />
@@ -98,7 +98,7 @@ const ThirdPageContent = () => {
               </h3>
             </div>
             <div
-              className="items-end justify-end flex 2xl:mr-52 "
+              // className="items-end justify-end flex 2xl:mr-52 "
               id="growth3id"
             >
               <img src="/growth.png" alt="" />
@@ -128,7 +128,7 @@ const ThirdPageContent = () => {
               </h3>
             </div>
             <div
-              className="items-end justify-end flex 2xl:mr-52 "
+              // className="items-end justify-end flex 2xl:mr-52 "
               id="growth4id"
             >
               <img src="/growth.png" alt="" />

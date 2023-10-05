@@ -7,59 +7,130 @@
 
 #growth1id{
 
-  height: 0;
-  transition: all 1s ease-in;
-  transition-delay: 1s;
-  opacity: 0;
+
+  display: flex;
+  justify-content: end;
+  height: 0px;
+  margin-right: 300px;
+
 }
 
-#g01:hover #growth1id {
-  opacity: 1;
-  height: 100%;
-  
+#g01:hover #growth1id{
+  height: 0px;
+ 
+  animation-name: anianiani1;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
+
 #growth2id{
 
-  height: 0;
-  transition: all 1s ease-in;
-  transition-delay: 1s;
-  
-  opacity: 0;
-}
 
-#g02:hover #growth2id {
-  opacity: 1;
-  height: 100%;
+  display: flex;
+  justify-content: end;
+  height: 0px;
+  margin-right: 300px;
 
 }
+
+#g02:hover #growth2id{
+  height: 0px;
+ 
+  animation-name: anianiani2;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 #growth3id{
 
-  height: 0;
-  transition: all 1s ease-in;
-  transition-delay: 1s;
-  
-  opacity: 0;
-}
 
-#g03:hover #growth3id {
-  opacity: 1;
-  height: 100%;
+  display: flex;
+  justify-content: end;
+  height: 0px;
+  margin-right: 300px;
 
 }
+
+#g03:hover #growth3id{
+  height: 0px;
+ 
+  animation-name: anianiani3;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 #growth4id{
 
-  height: 0;
-  transition: all 1s ease-in;
-  transition-delay: 1s;
+
+  display: flex;
+  justify-content: end;
+  height: 0px;
+  margin-right: 300px;
+
+}
+
+#g04:hover #growth4id{
+  height: 0px;
+ 
+  animation-name: anianiani4;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes anianiani1 {
+  from{
+    height: 0px;
+   
+
+  }
+  to{
+    height: 400px;
+    
+  }
   
-  opacity: 0;
+}
+@keyframes anianiani2 {
+  from{
+    height: 0px;
+   
+
+  }
+  to{
+    height: 400px;
+    
+  }
+  
+}
+@keyframes anianiani3 {
+  from{
+    height: 0px;
+   
+
+  }
+  to{
+    height: 400px;
+    
+  }
+  
+}
+@keyframes anianiani4 {
+  from{
+    height: 0px;
+   
+
+  }
+  to{
+    height: 400px;
+    
+  }
+  
 }
 
-#g04:hover #growth4id {
-  opacity: 1;
-  height: 100%;
 
-}
 
 
 #scroll{ 
